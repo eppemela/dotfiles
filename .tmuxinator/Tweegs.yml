@@ -32,11 +32,11 @@ windows:
 
   - Server: rs
   - Console: rc
-  - Elastic: elasticsearch
   - Shell:
       layout: eddc,151x29,0,0{80x29,0,0,2,70x29,81,0[70x14,81,0,4,70x14,81,15,5]}
       panes:
         - zsh
         - htop
         - tig
+  - Elastic: elasticsearch
   - Logs: tail -f log/development.log
