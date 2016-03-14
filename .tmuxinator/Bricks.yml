@@ -38,4 +38,5 @@ windows:
         - zsh
         - htop
         - tig
+  - Guard: guard
   - Logs: tail -f log/development.log
