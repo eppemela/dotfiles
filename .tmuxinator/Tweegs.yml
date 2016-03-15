@@ -38,5 +38,6 @@ windows:
         - zsh
         - htop
         - tig
+  - Npm: npm run dev
   - Elastic: elasticsearch
   - Logs: tail -f log/development.log
